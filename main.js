@@ -36,8 +36,6 @@ function main() {
 
     return ul;
   }
-
-  inputField.addEventListener('input', listener);
 };
 
 window.addEventListener('load', main);

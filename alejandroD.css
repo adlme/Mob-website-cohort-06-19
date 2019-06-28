@@ -1,0 +1,136 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    background: #9cb8b3;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+  }
+  
+  h1 {
+    
+    font: 600 4em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+  }
+  
+  h2 {
+    font: 600 2em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+  }
+  
+  h3 {
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+  .margin {
+      margin: 0 20px;
+  }
+  
+  
+  /* ---- components ---- */
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+  .button {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff
+  }
+  
+  .button-alt {
+    color: blue;
+    background-color: #fff;
+  }
+  
+.profile-photo {
+    border-radius: 8px;
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+  ul{
+    list-style-type: none;
+  }
+
+  /* ---- section ---- */
+  
+  section.testimonials {
+    // ...
+  }
+  
+  section.testimonials .button {
+    margin-bottom: 10px;
+  }
+
+
+.collapsed ul{
+    display: none;
+};
